@@ -18,4 +18,9 @@ public class SWTNativeView extends NativeView {
 		return widget.getTextSize(s);
 	}
 
+	@Override
+	public void setBounds(int x, int y, int width, int height) {
+		widget.setBounds(x, y, width, height);
+	}
+
 }
